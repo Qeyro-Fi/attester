@@ -1,0 +1,5 @@
+*                    @Qeyro-Fi/maintainers
+/src/config.ts       @Qeyro-Fi/security-reviewers
+/src/clients.ts      @Qeyro-Fi/security-reviewers
+/src/commands.ts     @Qeyro-Fi/security-reviewers
+/deploy/             @Qeyro-Fi/maintainers
