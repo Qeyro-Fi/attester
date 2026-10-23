@@ -1,0 +1,10 @@
+services:
+  attester-watch:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
